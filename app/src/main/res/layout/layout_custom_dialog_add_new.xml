@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/custom_background_white_stroke_secondary_color_corners_5"
+    android:paddingTop="15dp"
+    android:paddingBottom="20dp">
+    <TextView
+        android:id="@+id/tv_header_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new list"
+        android:textSize="20dp"
+        android:textColor="@color/light_black"/>
+    <EditText
+        android:id="@+id/et_add_new"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input_add_new"
+        android:hint="New list"
+        android:paddingStart="8dp"
+        android:textSize="18sp" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="20dp">
+    <Button
+        android:id="@+id/btn_cancel_dialog"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Cancel"
+        android:textColor="@color/secondary_color"
+        android:background="@drawable/custom_background_white_stroke_secondary_color_corners_5"/>
+    <Button
+        android:id="@+id/btn_add_new"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="add"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_background_secondary_color_stroke_secondary_color_corners_5"/>
+</LinearLayout>
+</LinearLayout>
